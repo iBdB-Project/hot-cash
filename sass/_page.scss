@@ -39,6 +39,7 @@ $mobile-width: 80%;
     justify-content: center;  /* horizontal centering */
     align-items: center;      /* vertical centering */
     padding: 0 20px;          /* 20px padding left and right */
+    padding-bottom: 10%;
     box-sizing: border-box;   /* include padding in width calculations */
     text-align: center;
 }
@@ -188,16 +189,62 @@ iframe {
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 899px)  {
+@media only screen and (min-width: 500px) and (max-width: 999px)  {
 
     iframe {
         max-width: $mobile-width !important;
     }
     .page-title {
-        font-size: 1.5em;
+        font-size: 2.0em;
     }
     .andromeda-header-text {
-        font-size: 1.5em;
+        font-size: 2.0em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.5em;
+        font-family: "Montserrat";
+        a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            color: $andromeda-light;
+            font-weight: 800;
+        }
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px)  {
+
+    iframe {
+        max-width: $mobile-width !important;
+    }
+    .page-title {
+        font-size: 1.9em;
+    }
+    .andromeda-header-text {
+        font-size: 1.9em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.5em;
+        font-family: "Montserrat";
+        a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            color: $andromeda-light;
+            font-weight: 800;
+        }
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px)  {
+
+    iframe {
+        max-width: $mobile-width !important;
+    }
+    .page-title {
+        font-size: 1.8em;
+    }
+    .andromeda-header-text {
+        font-size: 1.8em;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         padding-left: 0.5em;
