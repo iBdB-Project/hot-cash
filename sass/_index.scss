@@ -209,14 +209,14 @@ a.stretched {
         font-family: "Montserrat";
         a {
             text-decoration: none;
-            color: $andromeda-light;
             font-family: "Montserrat";
+            color: $andromeda-light;
             font-weight: 800;
         }
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 899px)  {
+@media only screen and (min-width: 500px) and (max-width: 999px)  {
 
     iframe {
         max-width: $mobile-width !important;
@@ -232,14 +232,37 @@ a.stretched {
         font-family: "Montserrat";
         a {
             text-decoration: none;
-            color: $andromeda-light;
             font-family: "Montserrat";
+            color: $andromeda-light;
             font-weight: 800;
         }
     }
 }
 
-@media only screen and (min-width: 100px) and (max-width: 399px) {
+@media only screen and (min-width: 300px) and (max-width: 499px)  {
+
+    iframe {
+        max-width: $mobile-width !important;
+    }
+    .page-title {
+        font-size: 1.9em;
+    }
+    .andromeda-header-text {
+        font-size: 1.9em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.5em;
+        font-family: "Montserrat";
+        a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            color: $andromeda-light;
+            font-weight: 800;
+        }
+    }
+}
+
+@media only screen and (min-width: 150px) and (max-width: 299px) {
 
     iframe {
         max-width: $mobile-width !important;
@@ -255,8 +278,31 @@ a.stretched {
         font-family: "Montserrat";
         a {
             text-decoration: none;
-            color: $andromeda-light;
             font-family: "Montserrat";
+            color: $andromeda-light;
+            font-weight: 800;
+        }
+    }
+}
+
+@media only screen and (min-width: 50px) and (max-width: 149px) {
+
+    iframe {
+        max-width: $mobile-width !important;
+    }
+    .page-title {
+        font-size: 0.5em;
+    }
+    .andromeda-header-text {
+        font-size: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.5em;
+        font-family: "Montserrat";
+        a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            color: $andromeda-light;
             font-weight: 800;
         }
     }
